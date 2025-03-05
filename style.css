@@ -173,12 +173,14 @@ border: 2.5px solid #a3a2a4;
 border-radius:16px;			
 }
 
-@media (max-width: 430px) {
+@media (min-width: 430px) {
     header nav ul {
         list-style:none;
 		flex-direction:column;
 		margin:0;
 		align-content:center;
+		display:flex;
+		flex-direction: column;
     }
 
     header nav li {
