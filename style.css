@@ -172,3 +172,21 @@ color: #8418cf;
 border: 2.5px solid #a3a2a4;
 border-radius:16px;			
 }
+
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header nav li {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    header nav a {
+        display: block;
+        padding: 12px;
+        width: 100%;
+    }
+}
