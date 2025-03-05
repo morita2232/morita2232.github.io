@@ -1,3 +1,35 @@
+
+@media screen and (width: 320px) {
+    header nav ul {
+        list-style:none;
+		flex-direction:column;
+		margin:0;
+		align-content:center;
+		display:flex;
+		flex-direction: column;
+    }
+
+    header nav li {
+        width: 100%; /* Make each menu item full width */
+        text-align: center; /* Center text inside each item */
+        padding: 0; /* Remove default padding */
+    }
+
+    header nav a {
+        display: block; /* Ensure links are block-level */
+        padding: 12px; /* Add padding for better touch targets */
+        width: 100%; /* Make the clickable area full width */
+        box-sizing: border-box; /* Include padding in width */
+    }
+
+    header nav a:hover {
+        background-color: #cbc8cd; /* Hover effect for better UX */
+        color: #8418cf;
+        border: 2.5px solid #a3a2a4;
+        border-radius: 16px;
+    }
+}
+
 .container{
 background-color: #cbc8cd;
 border: 5px solid #a3a2a4;
@@ -171,35 +203,4 @@ background-color: #cbc8cd;
 color: #8418cf;	
 border: 2.5px solid #a3a2a4;
 border-radius:16px;			
-}
-
-@media screen and (width: 320px) {
-    header nav ul {
-        list-style:none;
-		flex-direction:column;
-		margin:0;
-		align-content:center;
-		display:flex;
-		flex-direction: column;
-    }
-
-    header nav li {
-        width: 100%; /* Make each menu item full width */
-        text-align: center; /* Center text inside each item */
-        padding: 0; /* Remove default padding */
-    }
-
-    header nav a {
-        display: block; /* Ensure links are block-level */
-        padding: 12px; /* Add padding for better touch targets */
-        width: 100%; /* Make the clickable area full width */
-        box-sizing: border-box; /* Include padding in width */
-    }
-
-    header nav a:hover {
-        background-color: #cbc8cd; /* Hover effect for better UX */
-        color: #8418cf;
-        border: 2.5px solid #a3a2a4;
-        border-radius: 16px;
-    }
 }
