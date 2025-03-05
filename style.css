@@ -175,6 +175,14 @@ border-radius:16px;
 
 @media (width: 430px) {
 
+header nav {
+padding:16px;
+border-radius:16px;
+background-color: #cbc8cd;
+border: 10px solid #a3a2a4;	
+	
+}
+
 header nav ul{
 padding: 0 0 0 0;
 list-style:none;
