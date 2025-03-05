@@ -1,5 +1,5 @@
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 320px) {
     header nav ul {
         list-style:none;
 		flex-direction:column;
