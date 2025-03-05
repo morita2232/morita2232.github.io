@@ -176,11 +176,9 @@ border-radius:16px;
 @media (max-width: 430px) {
     header nav ul {
         list-style:none;
-		display:none;
 		flex-direction:column;
 		margin:0;
 		align-content:center;
-		justify-content: space-evenly;
     }
 
     header nav li {
