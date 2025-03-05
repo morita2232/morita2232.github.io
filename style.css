@@ -173,11 +173,14 @@ border: 2.5px solid #a3a2a4;
 border-radius:16px;			
 }
 
-@media (max-width: 390px) {
+@media (max-width: 430px) {
     header nav ul {
-        flex-direction: column; /* Change menu to vertical */
-        align-items: center; /* Center items horizontally */
-        gap: 10px; /* Add spacing between menu items */
+        list-style:none;
+		display:flex;
+		flex-direction:column;
+		margin:0;
+		align-content:center;
+		justify-content: space-evenly;
     }
 
     header nav li {
