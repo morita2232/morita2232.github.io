@@ -175,24 +175,21 @@ border-radius:16px;
 
 @media (max-width: 430px) {
     header nav ul {
-        flex-direction: column; /* Change menu to vertical */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column !important; /* Force vertical layout */
+        align-items: center !important; /* Center items horizontally */
         gap: 10px; /* Add spacing between menu items */
     }
 
     header nav li {
-        width: 100%; /* Make each menu item full width */
-        text-align: center; /* Center text inside each item */
+        width: 100% !important; /* Force full width for each item */
+        text-align: center !important; /* Center text inside each item */
+        margin: 0 !important; /* Remove any default margins */
     }
 
     header nav a {
-        display: block;
-        padding: 12px;
-        width: 100%; /* Make the clickable area full width */
-        box-sizing: border-box; /* Ensure padding is included in width */
-    }
-
-    header nav a:hover {
-        background-color: #f0f0f0; /* Optional: Add hover effect for better UX */
+        display: block !important; /* Ensure links are block-level */
+        padding: 12px !important; /* Add padding for better touch targets */
+        width: 100% !important; /* Force full width for clickable area */
+        box-sizing: border-box !important; /* Include padding in width */
     }
 }
