@@ -1,10 +1,20 @@
 
 @media screen and (max-width: 390px) {
-    header nav ul {
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+   header nav ul {
         list-style:none;
 		flex-direction:column;
 		margin:0;
-		align-content:center;
+		align-items:center;
 		display:flex;
 		flex-direction: column;
     }
