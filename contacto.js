@@ -60,6 +60,8 @@ let mensaje = document.getElementById("message");
 		email.style.border = "1px solid #ff0000";
 		email.style.color = "#ff0000";
 		
+		email.focus().
+		
 		return false;
 
 	}
@@ -69,7 +71,6 @@ let mensaje = document.getElementById("message");
 		email.style.color = "#22ff00";
 	
 	}
-	//email 6 caracteres y texto 5
 	
 	document.getElementById("form_contacto").submit();
 	
